@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IoRecipes.SlugGenerator</id>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
     <authors>Dominik Gorecki</authors>
     <owners>Dominik Gorecki</owners>
     <license type="expression">MIT</license>
@@ -10,7 +10,7 @@
     <iconUrl>https://iorecipes.com/images/favicon-96x96.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Generate url and human friendly string from text. Use for url slugs like example.com/article/the-quick-fox</description>
-    <releaseNotes>First release</releaseNotes>
+    <releaseNotes>Added toString override</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>Web Slug URL uri uricompoent friendly-url</tags>
     <packageTypes>

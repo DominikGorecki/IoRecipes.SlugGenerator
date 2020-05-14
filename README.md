@@ -26,4 +26,6 @@ Use this method to filter out existing slugs so that you don't have duplicates. 
 etc. 
 
 # FULL DOCUMENTATION
-Available on iorecipes.com
+Available on [iorecipes.com][recipe]
+
+[recipe]:https://iorecipes.com/r/slug-generator

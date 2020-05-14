@@ -41,6 +41,7 @@ namespace IoRecipes.SlugGenerator.Test
         {
             var slug = new Slug("a - c");
             Assert.AreEqual("a-c", slug.GenerateSlug());
+            Assert.AreEqual("a-c", slug.ToString());
             Assert.AreEqual("a-c", slug.GenerateSlug(true));
         }
 

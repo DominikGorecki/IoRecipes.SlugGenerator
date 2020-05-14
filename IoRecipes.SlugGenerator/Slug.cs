@@ -23,6 +23,17 @@ namespace IoRecipes.SlugGenerator
 
         public Slug(string input)
         {
+            Setup(input);
+        }
+
+        public Slug(string input, int maxLength)
+        {
+            CustomMaxLength = maxLength;
+            Setup(input);
+        }
+
+        private void Setup(string input)
+        {
             if (input == null) throw new ArgumentNullException(nameof(input));
             if (input.Length == 0) throw new ArgumentOutOfRangeException(nameof(input), "Cannot be empty");
             if (string.IsNullOrWhiteSpace(input)) throw new ArgumentOutOfRangeException(nameof(input), "Cannot be white space");
@@ -38,11 +49,6 @@ namespace IoRecipes.SlugGenerator
             GeneratedSlug = Regex.Replace(str, @"-+", "-"); // hyphens   
 
             ExistingSlugs = new List<string>();
-        }
-
-        public Slug(string input, int maxLength) : this(input)
-        {
-            CustomMaxLength = maxLength;
         }
 
         /// <summary>
@@ -75,6 +81,9 @@ namespace IoRecipes.SlugGenerator
             var newNumber = highestEndingNumber + 1;
             return $"{GeneratedSlug}-{newNumber}";
         }
+
+        public override string ToString()
+            => GenerateSlug();
 
         public void SetExistingSlugs(IEnumerable<string> existingSlugs)
         {
