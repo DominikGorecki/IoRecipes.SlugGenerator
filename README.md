@@ -1,4 +1,9 @@
-# Generating URL and Human Friendly Strings
+# SLUG GENERATOR
+[![code examples](https://iorecipes.com/c/slug-generator-nuget/repo-badge)](https://iorecipes.com/c/slug-generator-nuget)
+
+Get best documetation on [here, on iorecipes.com][recipe].
+
+## Generating URL and Human Friendly Strings
 
 Useful for generating **unique** slugs to use in a url. 
 

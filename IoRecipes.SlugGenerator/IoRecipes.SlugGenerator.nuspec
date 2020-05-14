@@ -2,12 +2,12 @@
 <package >
   <metadata>
     <id>IoRecipes.SlugGenerator</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <authors>Dominik Gorecki</authors>
     <owners>Dominik Gorecki</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/DominikGorecki/IoRecipes.SlugGenerator/</projectUrl>
-    <iconUrl>https://iorecipes.com/images/favicon-96x96.png</iconUrl>
+    <icon>images\io.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Generate url and human friendly string from text. Use for url slugs like example.com/article/the-quick-fox</description>
     <releaseNotes>Added toString override</releaseNotes>
@@ -19,4 +19,7 @@
     <dependencies>
     </dependencies>
   </metadata>
+  <files>
+    <file src="io.png" target="images\" />
+  </files>
 </package>
