@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IoRecipes.SlugGenerator</id>
+    <version>1.0.0</version>
+    <authors>Dominik Gorecki</authors>
+    <owners>Dominik Gorecki</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/DominikGorecki/IoRecipes.SlugGenerator/</projectUrl>
+    <iconUrl>https://iorecipes.com/images/favicon-96x96.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Generate url and human friendly string from text. Use for url slugs like example.com/article/the-quick-fox</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Web Slug URL uri uricompoent friendly-url</tags>
+    <packageTypes>
+        <packageType name="Dependency" />
+    </packageTypes>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
